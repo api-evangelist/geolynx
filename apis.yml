@@ -1,23 +1,68 @@
 aid: geolynx
+
 name: Geolynx
-description: 'Geolynx is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Geolynx is an Estonian geospatial technology company offering professional GIS solutions, custom ESG data services, web hosting for spatial data, and training. Leveraging long‑term experience in open‑source GIS, satellite data analysis, and advanced computational methods, Geolynx provides accurate environmental risk assessments, tailored ESG reporting, and robust spatial data infrastructure for public and authenticated access. The company serves clients such as Emajõe Waterworks and aims to support both beginners and advanced users through courses on QGIS, PostGIS, and GeoServer.'
+
 url: https://raw.githubusercontent.com/api-evangelist/geolynx/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-23'
+
 modified: '2026-10-23'
+
 tags:
 - Company
-apis: []
+- GIS
+- ESG
+- DataHosting
+- Training
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/geolynx-hosts.yml
+- type: Vendors
+  url: vendors/geolynx-vendors.yml
+- type: DeveloperPortal
+  url: https://portal.geolynx.ee/
+- type: GitHubOrganization
+  url: https://github.com/Geolynx
+- type: DomainSecurity
+  url: security/geolynx-domain-security.yml
 - type: Website
   url: https://geolynx.ee
+
+- type: Documentation
+  url: https://geolynx.ee/en/
+- type: APIReference
+  url: https://geolynx.ee/en/
+- type: GettingStarted
+  url: https://geolynx.ee/en/
+- type: Blog
+  url: https://geolynx.ee/en/posts/
+- type: TermsOfService
+  url: https://geolynx.ee/en/footer/terms/
+- type: PrivacyPolicy
+  url: https://geolynx.ee/en/footer/privacy/
+
+apis: []
+x-enrichment:
+  date: '2026-10-23'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

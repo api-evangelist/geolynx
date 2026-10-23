@@ -1,0 +1,17 @@
+generated: '2026-10-23'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: geolynx.ee
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec 29 11:57:01 2026 GMT
+  hsts: true
+  hsts_max_age: 31556926
+domains:
+- domain: geolynx.ee
+  dnssec: true
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: none

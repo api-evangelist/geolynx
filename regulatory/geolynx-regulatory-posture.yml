@@ -1,0 +1,56 @@
+generated: '2026-10-23'
+method: probed
+source: https://geolynx.ee/en/footer/privacy/
+signals:
+  data_subject_request:
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.1. The data subject has the right to gain access to and examine their personal data."
+      section: "4. Rights of the data subject"
+      note: "Provides data subject access rights."
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.2. The data subject has the right to obtain information on the processing of their personal data."
+      section: "4. Rights of the data subject"
+      note: "Right to information about processing."
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.3. The data subject has the right to modify or rectify inaccurate data."
+      section: "4. Rights of the data subject"
+      note: "Right to rectification."
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.4. If the controller processes personal data of the data subject based on the consent granted by the latter, the data subject has the right to withdraw their consent at any time."
+      section: "4. Rights of the data subject"
+      note: "Right to withdraw consent."
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.6. To protect their rights, the data subject can file a complaint with the Data Protection Inspectorate."
+      section: "4. Rights of the data subject"
+      note: "Provides notice and action for complaints."
+  data_retention:
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "3.6. The controller stores the data of the data subjects depending on the purpose of processing, but no longer than for 5 years."
+      section: "3. Processing of personal data of customers"
+      note: "Specifies retention period of up to 5 years."
+  subprocessors:
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "3.4. The controller has the right to share personal data of customers with third parties such as processors, accountants, transport and courier companies, companies providing transfer services."
+      section: "3. Processing of personal data of customers"
+      note: "Mentions sharing with processors and other third parties."
+  notice_and_action:
+    - source: https://geolynx.ee/en/footer/privacy/
+      http_status: 200
+      fetched: /tmp/privacy.html
+      quote: "4.6. To protect their rights, the data subject can file a complaint with the Data Protection Inspectorate."
+      section: "4. Rights of the data subject"
+      note: "Provides mechanism for data subjects to lodge complaints."
